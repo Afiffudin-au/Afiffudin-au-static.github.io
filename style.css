@@ -63,7 +63,7 @@ body{
 }
 .info-panel img{
   text-align: center;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 .info-panel h4{
   color: #164892;
@@ -228,5 +228,9 @@ body{
   }
   .jumbotron{
     margin-top: -60px;
+  }
+  .info-panel img{
+   display: block;
+   transform: translateX(50%);
   }
 }
