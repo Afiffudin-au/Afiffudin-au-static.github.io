@@ -220,3 +220,25 @@ body{
     align-items: center;
   }
 }
+/* Jquery Effect */
+/* Info Panel */
+.panel-translate-y{
+  transition: 0.3s;
+  transform: translateY(-320px);
+  opacity: 0;
+}
+
+/* Working space */
+.workingspace-kiri,.content-quote-kanan{
+  transition: 0.7s;
+  transform: translateX(-320px);
+  opacity: 0;
+}
+.content-quote-kanan{
+  transform: translateX(320px);
+  opacity: 0;
+}
+.show-translate{
+  opacity: 1;
+  transform: translate(0,0);
+}
